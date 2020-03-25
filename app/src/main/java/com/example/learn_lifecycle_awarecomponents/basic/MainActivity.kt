@@ -1,8 +1,9 @@
-package com.example.learn_lifecycle_awarecomponents
+package com.example.learn_lifecycle_awarecomponents.basic
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.learn_lifecycle_awarecomponents.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,7 +12,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        BasicLifecycleAwareComponents(lifecycle);
+        BasicLifecycleAwareComponents(
+            lifecycle
+        );
 
         btnLaunch.setOnClickListener {
             startActivity(Intent(this, SecondActivity::class.java))

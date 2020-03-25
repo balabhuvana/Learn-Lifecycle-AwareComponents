@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Learn-Lifecycle-AwareComponents</string>
     <string name="launch">Launch</string>
+    <string name="title_activity_location_common">LocationCommonActivity</string>
+    <string name="status">Status</string>
 </resources>

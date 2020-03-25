@@ -1,4 +1,4 @@
-package com.example.learn_lifecycle_awarecomponents
+package com.example.learn_lifecycle_awarecomponents.basic
 
 import android.util.Log
 import androidx.lifecycle.Lifecycle

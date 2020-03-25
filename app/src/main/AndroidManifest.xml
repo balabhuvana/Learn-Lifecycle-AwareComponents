@@ -9,14 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".common_approach.LocationCommonActivity"
+            android:label="@string/title_activity_location_common">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+        <activity android:name=".basic.SecondActivity" />
+        <activity android:name=".basic.MainActivity"></activity>
     </application>
 
 </manifest>

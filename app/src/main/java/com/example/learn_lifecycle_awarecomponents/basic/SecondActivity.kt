@@ -1,7 +1,8 @@
-package com.example.learn_lifecycle_awarecomponents
+package com.example.learn_lifecycle_awarecomponents.basic
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.learn_lifecycle_awarecomponents.R
 
 class SecondActivity : AppCompatActivity() {
 
